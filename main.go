@@ -45,7 +45,7 @@ func main() {
 
 			out += fmt.Sprintf("---\n")
 			out += fmt.Sprintf("id: %v\n", thisId)
-			out += fmt.Sprintf("title: %v\n", a.Title)
+			out += fmt.Sprintf("title: |\n  %v\n", a.Title)
 			out += fmt.Sprintf("teaser: |\n  %v\n", a.Teaser)
 			out += fmt.Sprintf("date: %v\n", a.Date_posted)
 			out += fmt.Sprintf("---\n")
